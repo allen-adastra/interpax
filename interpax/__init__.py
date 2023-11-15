@@ -12,4 +12,15 @@ from ._spline import (
     interp3d,
 )
 
+__all__ = [
+    "Interpolator1D",
+    "Interpolator2D",
+    "Interpolator3D",
+    "approx_df",
+    "fft_interp1d",
+    "fft_interp2d",
+    "interp1d",
+    "interp2d",
+    "interp3d",
+]
 __version__ = _version.get_versions()["version"]
